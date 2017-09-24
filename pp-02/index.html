@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="screen.css" />
 </head>
 <body>
-  <h1><a href="http://example.com/index.html" rel="home">HTML Antipatterns</a></h1>
-    <header id="header">
+  <header id="header">
+    <h1><a href="http://example.com/index.html" rel="home">HTML Antipatterns</a></h1>
       <nav id="navigation">
         <!--Hint: Match navigation labels with memorable paths/URLs-->
-        <li><a href="home.html">Home</a></li>
-        <li><a href="../my-res/">Resume</a></li>
-        <li><a href="randomstuff/">Interests</a></li>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="../my-res/">Resume</a></li>
+          <li><a href="randomstuff/">Interests</a></li>
+        </ul>
       </nav>
-    </header>
-  <!--Hint: Watch for duplicate and non-semantic classes and IDs-->
-  <main id="home">
-    <article id="primary" class="green-background">
+  </header>
+  <main id="main">
+    <article id="primary">
       <h2><b>About Me</b></h2>
       <h3><i>3rd-Year ITM Undergraduate</i></h3>
       <h4>Majoring in Cybersecurity</h4><br />
@@ -29,7 +30,7 @@
     </article>
     <!--Hint: Watch formatting, spacing, and tag completeness-->
     <article id="dog">
-      <div class="header">Look at this awesome dog!</div>
+      <p>Look at this awesome dog!</p>
         <figure>
           <img href="file:///Users/scarlethawk/Desktop/Photo%20Saves/DSC2235.JPEG" alt="Photo of Hank" />
             <figcaption>
