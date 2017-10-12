@@ -38,14 +38,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #three {
+  height:10vw;
+  width:10vw;
   order:3;
 }
 
 #two {
+  height:10vw;
+  width:10vw;
   order:2;
 }
 
 #one {
+  height:10vw;
+  width:10vw;
   order:1;
 }
 
