@@ -62,8 +62,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   }
   #one,
   #two {
-    width:300px;
-    height:300px;
+    width:50vw;
+    height:50vw;
   }
   #three {
     height:10vw;
@@ -72,5 +72,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-
+  #content {
+    display:flex;
+    flex-wrap:nowrap;
+  }
+  #one,
+  #two,
+  #three {
+    height:300px;
+    width:300px;
+    flex-grow:1;
+  }
 }
