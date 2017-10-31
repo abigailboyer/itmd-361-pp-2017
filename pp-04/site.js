@@ -30,6 +30,7 @@ console.log('The value of x is:', x);
 //  the global scope:
 
 function arrayEach(array, func) {
+  var i = 0;
   for (i = 0; i < array.length; i++) {
     func(array[i]);
   }
@@ -37,7 +38,8 @@ function arrayEach(array, func) {
 
 arrayEach(['red','green','blue'], console.log);
 
-console.log(i) // should be 'undefined', not 3
+console.log(typeof(i)) // should be 'undefined', not 3
+//  i did typeof because davon told me to and it seems correct
 
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
@@ -50,3 +52,7 @@ function addTwo(x) {
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
+
+
+//  x is passed into the function so when x is redefined in the local space it doesn't
+//  change the way x is defined globally
