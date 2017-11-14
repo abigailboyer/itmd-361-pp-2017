@@ -19,7 +19,10 @@ body {
 }
 
 /* ===== LAYOUT STYLES ===== */
-
+#doorbellButton {
+  cursor: pointer;
+  background-color:pink;
+}
 
 /* ===== MODULAR STYLES ===== */
 
