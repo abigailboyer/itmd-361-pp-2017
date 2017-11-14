@@ -8,6 +8,14 @@ $(document).ready(function() {
   });
   //yes ,,beautiful  Good
 
+  $(document).on("keypress", function(press) {
+    if (press.key === "d") {
+      ringDoorbell();
+    }
+  });
+
+  // hell !!!! yea !!
+
   function ringDoorbell() {
     doorbell.play();
   }
