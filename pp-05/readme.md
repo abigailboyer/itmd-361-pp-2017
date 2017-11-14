@@ -27,7 +27,7 @@ is pressed, the doorbell should ring.
 
 * Bonus Task Two: Make the doorbell ring whenever someone presses the `d` key on their keyboard.
 
-* Bonus Task Three: Prevent uses from ringing the doorbell multiple times in a row. Once the sound
+* Bonus Task Three: Prevent users from ringing the doorbell multiple times in a row. Once the sound
 has started playing, in other words, it should play to completion before it can be played again.
 
 * Bonus Task Four: Display an indicator in the browser viewport that the doorbell is ringing, both
