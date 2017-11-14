@@ -21,7 +21,12 @@ body {
 /* ===== LAYOUT STYLES ===== */
 #doorbellButton {
   cursor: pointer;
-  background-color:pink;
+  background-color: pink;
+}
+
+#doorbellButton:hover,
+#doorbellButton:focus {
+  background-color: red;
 }
 
 /* ===== MODULAR STYLES ===== */
